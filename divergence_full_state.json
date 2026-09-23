@@ -1,3 +1,32 @@
 {
-  "divergence": {}
+  "divergence": {
+    "AUDUSD": {
+      "state": 0,
+      "entry_price": null,
+      "entry_date": null,
+      "trade_id": null,
+      "risk_fraction": 1.0
+    },
+    "USDJPY": {
+      "state": 0,
+      "entry_price": null,
+      "entry_date": null,
+      "trade_id": null,
+      "risk_fraction": 1.0
+    },
+    "GBPUSD": {
+      "state": 0,
+      "entry_price": null,
+      "entry_date": null,
+      "trade_id": null,
+      "risk_fraction": 1.0
+    },
+    "NZDUSD": {
+      "state": 0,
+      "entry_price": null,
+      "entry_date": null,
+      "trade_id": null,
+      "risk_fraction": 1.0
+    }
+  }
 }
