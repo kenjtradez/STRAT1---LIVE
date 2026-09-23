@@ -1,8 +1,8 @@
-name: Pivot S/R (NAS100)
+name: Gold MM Positioning (XAUUSD)
 
 on:
   schedule:
-    - cron: '15 22 * * 1-5'
+    - cron: '30 20 * * 1-5'
   workflow_dispatch: {}
 
 jobs:
@@ -19,15 +19,15 @@ jobs:
       - name: Install dependencies
         run: pip install pandas requests numpy
 
-      - name: Run Pivot S/R signals
-        run: python pivot_sr_signals.py
+      - name: Run Gold MM Positioning signals
+        run: python gold_mm_signals.py
 
       - name: Commit updated state
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add nas100_signal_log.csv nas100_state.json equity.json journal.csv
-          git diff --staged --quiet || git commit -m "Update Pivot S/R state"
+          git add gold_mm_log.csv gold_mm_state.json equity.json journal.csv
+          git diff --staged --quiet || git commit -m "Update Gold MM Positioning state"
           for i in 1 2 3; do
             git pull --rebase origin main && git push && break
             echo "Push attempt $i failed, retrying..."
