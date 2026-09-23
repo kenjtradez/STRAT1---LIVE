@@ -1,0 +1,29 @@
+{
+  "XAUUSD": {
+    "state": 0,
+    "entry_price": null,
+    "buy_level": null,
+    "sell_level": null,
+    "anchor_price": null,
+    "trade_id": null,
+    "risk_fraction": 1.0
+  },
+  "NAS100_USD": {
+    "state": 0,
+    "entry_price": null,
+    "buy_level": null,
+    "sell_level": null,
+    "anchor_price": null,
+    "trade_id": null,
+    "risk_fraction": 1.0
+  },
+  "SPX500": {
+    "state": 0,
+    "entry_price": null,
+    "buy_level": null,
+    "sell_level": null,
+    "anchor_price": null,
+    "trade_id": null,
+    "risk_fraction": 1.0
+  }
+}
