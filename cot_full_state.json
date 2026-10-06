@@ -8,9 +8,9 @@
       "risk_fraction": 1.0
     },
     "GBPUSD": {
-      "state": 0,
-      "entry_price": null,
-      "entry_date": null,
+      "state": 1,
+      "entry_price": 1.3216849565505981,
+      "entry_date": "2026-10-06T00:00:00",
       "trade_id": null,
       "risk_fraction": 1.0
     },
