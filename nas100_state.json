@@ -1,7 +1,7 @@
 {
-  "state": 1,
-  "entry_price": 29273.404296875,
-  "risk_reference_price": 28980.67025390625,
+  "state": 0,
+  "entry_price": null,
+  "risk_reference_price": null,
   "trade_id": null,
   "risk_fraction": 1.0
 }
