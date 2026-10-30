@@ -1,9 +1,9 @@
 {
   "cot": {
     "AUDUSD": {
-      "state": -1,
-      "entry_price": 0.702049970626831,
-      "entry_date": "2026-09-29T00:00:00",
+      "state": 0,
+      "entry_price": null,
+      "entry_date": null,
       "trade_id": null,
       "risk_fraction": 1.0
     },
